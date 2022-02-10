@@ -1,0 +1,409 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <!-- Local CSS -->
+    <link rel="stylesheet" href="style.css">
+    <title>KOTELOK.by</title>
+  </head>
+
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">KOTELOK.by</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 top-menu">
+              <li class="nav-item">
+                <a class="nav-link discont" href="#">Акция %</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Каталог</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Доставка и оплата</a>
+              </li>
+            </ul>
+
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <!-- <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-search"></i></a>
+                  </li> -->
+                  <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-danger" type="submit">Поиск</button>
+                  </form>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#modal-heart"><i class="far fa-heart"></i></i></a>
+                    <div class="modal fade" id="modal-heart" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                          <div class="modal-header bg-secondary text-white">
+                            <h5 class="modal-title" id="exampleModalLabel">Закладки</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                          </div>
+                          <div class="modal-body">
+                            <table class="table">
+                              <tbody>
+                                <tr>
+                                  <th scope="row">1</th>
+                                  <td><img src="images/Насос циркуляционный WILO YONOS PICO 25_1-6.jpg" alt=""></td>
+                                  <td><a href="#">Насос циркуляционный WILO YONOS PICO 25_1-6</a></td>
+                                  <td>230.99$</td>
+                                </tr>
+                                <tr>
+                                  <th scope="row">2</th>
+                                  <td><img src="images/Насосная группа Meibes MeiFlow Top S MC-CV DN25.png" alt=""></td>
+                                  <td><a href="#">Насосная группа Meibes MeiFlow Top S MC-CV DN25</a></td>
+                                  <td>560.50$</td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Очистить закладки</button>
+                            <button type="button" class="btn btn-primary">Продолжить покупки</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#modal-cart"><i class="fas fa-shopping-cart"></i></a>
+                    <div class="modal fade" id="modal-cart" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                          <div class="modal-header bg-secondary text-white">
+                            <h5 class="modal-title" id="exampleModalLabel">Корзина</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                          </div>
+                          <div class="modal-body">
+                            <table class="table">
+                              <tbody>
+                                <tr>
+                                  <th scope="row">1</th>
+                                  <td><img src="images/Viessmann Vitodens 100 W.png" alt=""></td>
+                                  <td><a href="#">Конденсационный газовый котел Viessmann Vitodens 100 W B1HF 25</a></td>
+                                  <td>1755.99$</td>
+                                </tr>
+                                <tr>
+                                  <th scope="row">2</th>
+                                  <td><img src="images/AV Engineering AVE136.png" alt=""></td>
+                                  <td><a href="#">Распределительный коллектор AV Engineering AVE136</a></td>
+                                  <td>89.99$</td>
+                                </tr>
+                                <tr>
+                                  <th scope="row">3</th>
+                                  <td><img src="images/Grundfos Alpha 1L 25-40.jpg" alt=""></td>
+                                  <td><a href="#">Насос циркуляционный Grundfos Alpha 1L 25-40AVE136</a></td>
+                                  <td>147.54$</td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Продолжить покупки</button>
+                            <button type="button" class="btn btn-primary">Оформить заказ</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="navbarDropdown" role="button" aria-expanded="false"><i class="far fa-user"></i></a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Регистрация</a></li>
+                      <li><a class="dropdown-item" href="#">Авторизация</a></li>
+                    </ul>
+                  </li>
+            </ul>
+           
+          </div>
+        </div>
+      </nav>
+
+      <!-- CAROUSEL -->
+      <div class="container-fluid my-carousel">
+        <div id="carouselExampleControls" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="4000">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/carousel/44.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="images/carousel/22.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="images/carousel/33.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="images/carousel/11.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Предыдущий</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Следующий</span>
+          </button>
+        </div>
+      </div>
+
+      <section class="main-content">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4 col-sm-6">
+                <div class="product-card">
+                  <div class="product-thumb">
+                    <a href="#"><img src="images/Твердотопливный котел TIS PRO 11.jpg" alt=""></a>
+                  </div>
+                  <div class="product-details">
+                    <h4><a href="#">Твердотопливный котел TIS PRO 11</a></h4>
+                    <p>Современный энергонезависимый котел длительного горения, предназначенный для сжигания дров, торфа, угля и древесных отходов, оснащенный механическим регулятором тяги по заданной температуре. </p>
+                    <div class="product-bottom-details d-flex justify-content-between">
+                      <div class="product-price">
+                        <small>$1870.99</small>$1570.99
+                      </div>
+                      <div class="product-links">
+                        <a href="#"><i class="far fa-heart"></i></a>
+                        <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-sm-6">
+                <div class="product-card">
+                  <div class="product-thumb">
+                    <a href="#"><img src="images/Vaillant turboTEC pro VUW 202.png" alt=""></a>
+                  </div>
+                  <div class="product-details">
+                    <h4><a href="#">Vaillant turboTEC pro VUW 202</a></h4>
+                    <p>Отопление помещений до 200 м2. Приготовление горячей воды в проточном режиме. Надежный медный первичный теплообменник. Вторичный теплообменник из нержавеющей стали. </p>
+                    <div class="product-bottom-details d-flex justify-content-between">
+                      <div class="product-price">
+                        <small>$1390.99</small>$1280.99
+                      </div>
+                      <div class="product-links">
+                        <a href="#"><i class="far fa-heart"></i></a>
+                        <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-sm-6">
+                <div class="product-card">
+                  <div class="product-thumb">
+                    <a href="#"><img src="images/Бойлер косвенного нагрева KOSPEL SB-200.png" alt=""></a>
+                  </div>
+                  <div class="product-details">
+                    <h4><a href="#">Бойлер косвенного нагрева KOSPEL SB-200</a></h4>
+                    <p>Теплообменники с двумя змеевиками для совместной работы с отопительным котлом и солнечной водонагревательной установкой. Автоматизация гарантирует повторяемость и точность исполнения. Гомогенный слой эмалированного покрытия соответствующей толщины </p>
+                    <div class="product-bottom-details d-flex justify-content-between">
+                      <div class="product-price">
+                        <small>$890.99</small>$770.99
+                      </div>
+                      <div class="product-links">
+                        <a href="#"><i class="far fa-heart"></i></a>
+                        <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-sm-6">
+                <div class="product-card">
+                  <div class="product-thumb">
+                    <a href="#"><img src="images/Коллектор из нержавеющей стали с расходомерами STOUT (SMS 0917).jpg" alt=""></a>
+                  </div>
+                  <div class="product-details">
+                    <h4><a href="#">Коллектор из нержавеющей стали с расходомерами STOUT (SMS 0917)</a></h4>
+                    <p> Коллекторные распределительные блоки STOUT для радиаторных систем отопления и «теплого пола» – изделия полной заводской готовности. </p>
+                    <div class="product-bottom-details d-flex justify-content-between">
+                      <div class="product-price">
+                        <small>$420.99</small>$380.99
+                      </div>
+                      <div class="product-links">
+                        <a href="#"><i class="far fa-heart"></i></a>
+                        <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-sm-6">
+                <div class="product-card">
+                  <div class="product-thumb">
+                    <a href="#"><img src="images/Насос циркуляционный Grundfos Alpha 3 25-60.png" alt=""></a>
+                  </div>
+                  <div class="product-details">
+                    <h4><a href="#">Насос циркуляционный Grundfos Alpha 3 25-60</a></h4>
+                    <p>Циркуляционные насосы Grundfos ALPHA2 25-60 используются для циркуляции воды или гликольсодержащих жидкостей в регулируемых системах отопления и в системах отопления с переменным расходом. </p>
+                    <div class="product-bottom-details d-flex justify-content-between">
+                      <div class="product-price">
+                        <small>$280.99</small>$240.99
+                      </div>
+                      <div class="product-links">
+                        <a href="#"><i class="far fa-heart"></i></a>
+                        <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-sm-6">
+                <div class="product-card">
+                  <div class="product-thumb">
+                    <a href="#"><img src="images/Насос циркуляционный WILO YONOS PICO 25_1-6.jpg" alt=""></a>
+                  </div>
+                  <div class="product-details">
+                    <h4><a href="#">Насос циркуляционный WILO YONOS PICO 25_1-6</a></h4>
+                    <p>Циркуляционный насос с мокрым ротором с резьбовым подсоединением, электронно-коммутируемым двигателем, устойчивым к токам блокировки, и встроенным электронным регулированием мощности.</p>
+                    <div class="product-bottom-details d-flex justify-content-between">
+                      <div class="product-price">
+                        <small>$295.99</small>$245.99
+                      </div>
+                      <div class="product-links">
+                        <a href="#"><i class="far fa-heart"></i></a>
+                        <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-sm-6">
+                <div class="product-card">
+                  <div class="product-thumb">
+                    <a href="#"><img src="images/Стальной радиатор Kermi Ventil 500x1000.jpg" alt=""></a>
+                  </div>
+                  <div class="product-details">
+                    <h4><a href="#">Стальной радиатор Kermi Ventil 500x1000</a></h4>
+                    <p>Для конвекционного обогрева помещения. Запатентированная технология Х2, с повышенной до 100 % интенсивностью излучения. Динамической инерционностью и сокращение до 25 % времени нагрева радиатора Therm X2</p>
+                    <div class="product-bottom-details d-flex justify-content-between">
+                      <div class="product-price">
+                        <small>$210.99</small>$175.99
+                      </div>
+                      <div class="product-links">
+                        <a href="#"><i class="far fa-heart"></i></a>
+                        <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-sm-6">
+                <div class="product-card">
+                  <div class="product-thumb">
+                    <a href="#"><img src="images/Насосная группа Meibes MeiFlow Top S MC-CV DN25.png" alt=""></a>
+                  </div>
+                  <div class="product-details">
+                    <h4><a href="#">Насосная группа Meibes MeiFlow Top S MC-CV DN25</a></h4>
+                    <p>Регулируемый (смесительный) контур в котором необходимо постоянно поддерживать заданную температуру теплоносителя. Насосная группа MC-CV (контроль подающей линии) оснащается сервоприводом с интегрированным электронным термостатом (не требуется внешняя автоматика), диапазон регулирования 0-95°C. </p>
+                    <div class="product-bottom-details d-flex justify-content-between">
+                      <div class="product-price">
+                        <small>$740.99</small>$620.99
+                      </div>
+                      <div class="product-links">
+                        <a href="#"><i class="far fa-heart"></i></a>
+                        <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-sm-6">
+                <div class="product-card">
+                  <div class="product-thumb">
+                    <a href="#"><img src="images/Термостатический клапан ESBE VTA 572.jpg" alt=""></a>
+                  </div>
+                  <div class="product-details">
+                    <h4><a href="#">Термостатический клапан ESBE VTA 572</a></h4>
+                    <p>Серии VTA370 и VTA570 — это лучший выбор для систем отопления и охлаждения. Клапаны оснащаются функцией защиты от ожогов, которая необходима для сохранности, например, труб напольного отопления и самого пола от бесконтрольного повышения температуры.  </p>
+                    <div class="product-bottom-details d-flex justify-content-between">
+                      <div class="product-price">
+                        <small>$102.99</small>$85.99
+                      </div>
+                      <div class="product-links">
+                        <a href="#"><i class="far fa-heart"></i></a>
+                        <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </section>
+        
+      <footer>
+        <section class="footer">
+          <div class="container">
+            <div class="row">
+               <div class="col-md-3 col-6">
+                 <h4>Информация</h4>
+                 <ul class="list-unstyled">                     <!--делает список без маркеров -->
+                  <li><a href="#">Главная</a></li>
+                  <li><a href="#">О магазине</a></li>
+                  <li><a href="#">Контакты</a></li>
+                  <li><a href="#">Сервисная поддержка</a></li>
+                 </ul>
+               </div>
+               <div class="col-md-3 col-6">
+                <h4>Время работы</h4>
+                <ul class="list-unstyled">                     <!--делает список без маркеров -->
+                 <li>Пн-Сб: 9:00 - 20:00</li>
+                 <li>Пн-Сб: 10:00 - 15:00</li>
+                 <li>Без перерыва</li>
+                </ul>
+              </div>
+              <div class="col-md-3 col-6">
+                <h4>Контакты</h4>
+                <ul class="list-unstyled">                     <!--делает список без маркеров -->
+                 <li><a href="tel:+375296411808">(+37529) 641-18-08</a></li>
+                 <li><a href="tel:+375296411809">(+37529) 641-18-09</a></li>
+                 <li><a href="tel:+375296411810">(+37529) 641-18-10</a></li>
+                </ul>
+              </div>
+              <div class="col-md-3 col-6">
+                <h4>Мы в сети</h4>
+                <div class="footer-icons">
+                  <a href="#"><i class="fab fa-facebook"></i></a>
+                  <a href="#"><i class="fab fa-youtube"></i></i></a>
+                  <a href="#"><i class="fab fa-instagram"></i></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </footer>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+
+  </body>
+</html>
